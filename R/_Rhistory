@@ -1,0 +1,8 @@
+require(Gems2)
+start_gui()
+install.packages("~/ISPN/myR/guigems/Group_meeting_21_07_Baranczuk/Gems2_0.1.tar.gz", repos = NULL, type = "source")
+start_gui()
+require(Gems2)
+start_gui()
+start_gui()
+start_gui()
