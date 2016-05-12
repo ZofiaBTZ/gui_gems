@@ -10,7 +10,7 @@
 
 #'@export
 baselineFunction_sex_age <- function(cohortSize) {
-  age_lower_limit = 10
+  age_lower_limit = 20
   age_upper_limit = 60
   data.frame(sex=rbinom(cohortSize, 1, .5), age=runif(cohortSize, age_lower_limit,age_upper_limit)) 
 }
